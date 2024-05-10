@@ -71,8 +71,10 @@ assign z=(present==s3);
 endmodule
 ```
 
-OUTPUT:
-(https://github.com/Mohanraj7896/VLSI-LAB-EXP-5/assets/166592482/e2d861fd-d2c8-4dd4-99c8-09c9fc48f820)
+OUTPUT:![screenshot Image 2024-04-13 at 13 19 50_0c877b3c](https://github.com/Mohanraj7896/VLSI-LAB-EXP-5/assets/166592482/32a0a3e0-9786-4c39-ae2b-0d03d03f11b4)
+
+
+
 
 
 
