@@ -29,6 +29,51 @@ Logic Diagram :
 
 VERILOG CODE:
 
+
+LOGIC DIAGRAM:
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-5/assets/6987778/34ec5d63-2b3b-4511-81ef-99f4572d5869)
+
+
+FSM:
+```
+module fsm(clk,rst,x,y);
+input clk,rst,x;
+output y;
+reg [2:1]present,next;
+parameter s0=2'b00,s1=2'b01,s2=2'b10,s3=2'b11;
+always@(x,present)
+case (present)
+s0:if (x)
+next=s1;
+else
+next=s0;
+s1:if(x)
+next=s1;
+else
+next=s2;
+s2:if(x)
+next=s3;
+else
+next=s0;
+s3:if (x)
+next=s1;
+else
+next=s2;
+endcase
+always@(negedge rst,posedge clk)
+if (rst)
+present=s0;
+else
+present=next;
+assign z=(present==s3);
+
+endmodule
+```
+OUTPUT:(https://github.com/Mohanraj7896/VLSI-LAB-EXP-5/assets/166592482/e2d861fd-d2c8-4dd4-99c8-09c9fc48f820)
+
+
+
 ----Type Verilog Code
 
 OUTPUT:
