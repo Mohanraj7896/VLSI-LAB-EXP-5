@@ -1,13 +1,13 @@
-# VLSI-LAB-EXP-5
-SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE
 
-AIM: To simulate and synthesis finite state machine using Xilinx ISE.
+# SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE
+
+# AIM: To simulate and synthesis finite state machine using Xilinx ISE.
 
 **APPARATUS REQUIRED: **
 
 Xilinx 14.7 
 Spartan6 FPGA
-
+```
 **PROCEDURE: **
 STEP:1 Start the Xilinx navigator, Select and Name the New project.
 STEP:2 Select the device family, device, package and speed. 
@@ -21,7 +21,7 @@ STEP:9 In the Design Object List Window, enter the pin location for each pin in 
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here. 
 STEP:11 On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 STEP:12 Load the Bit file into the SPARTAN 6 FPGA 
-
+```
 Logic Diagram :
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-5/assets/6987778/34ec5d63-2b3b-4511-81ef-99f4572d5869)
@@ -84,7 +84,7 @@ OUTPUT:
 
 -----Place a Waveform Generated from Xilinx ISE------------
 
-RESULT:Thus the simulate and synthesis finite state machine using vivado2023.3 is verified.
+# RESULT:Thus the simulate and synthesis finite state machine using vivado2023.3 is verified.
 
 
 
